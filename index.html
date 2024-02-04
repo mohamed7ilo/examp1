@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="main.js"></script>
+    <script>
+
+        const myInfo = {
+            "Name": "Mohamed Hilo",
+            "Id": "211507488",
+            "Group": "Itay group",
+            "Birthdate": "21/03/2001",
+            "Birthplace": "Arraba, Hazafon, Israel",
+            "Siblings": [
+                "Bhaa",
+                "Aden"],
+            "Friends": [
+                "Mahmod",
+                "Rami"],
+            "HighSchool": {
+                "name": "Al Batoof Highschool",
+                "location": "Arraba",
+                "yearOfGraduation": "2019"
+            },
+            "Hobbies": [
+                "gaming",
+                "Football"],
+            "FavoriteMovies": [
+                "Avengers Endgame",
+                "The Beekeeper"],
+        };
+
+
+
+        document.write(JSON.stringify(myInfo, null, 2));
+
+    </script>
+</body>
+
+</html>
